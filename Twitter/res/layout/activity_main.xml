@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="clickToLogin"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/currentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonLogin"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_marginTop="22dp"
+        android:onClick="clickToViewCurrentLocation"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/location" />
+
+</RelativeLayout>
